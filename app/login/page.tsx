@@ -20,7 +20,7 @@ const LoginPage = ({searchParams}: PageProps) => {
             username,
             password,
             multifactorCode,
-            redirect: false
+            redirect: true
         }, {mfa: mfa.toString(), cookies, ...params})
     }
     useEffect(() => {
